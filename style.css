@@ -1,0 +1,50 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #000;
+}
+
+main {
+  width: 30%;
+  height: 400px;
+  margin-top: 5%;
+  border: 1px solid;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px #966a5b;
+  background-color: #888;
+}
+
+#case {
+  margin-top: 50px;
+  width: 128px;
+  height: 128px;
+  border: 0px;
+}
+
+p {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+button {
+  margin-top: 50px;
+  width: 100px;
+  height: 50px;
+  background-color: #966a5b;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+button:active {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+button:focus {
+  outline: 0px;
+}
